@@ -8,7 +8,6 @@ function getComputerChoice(){
     }else{
         return "Scissors";
     }
-
 }
 
 function getHumanChoice(){
@@ -72,8 +71,6 @@ function playRound(humanChoice,computerChoice){
     }
 }
 
-
-
 function playGame(){
 
 
@@ -83,6 +80,7 @@ function playGame(){
         playRound(humanSelection,computerSelection);
     }
 }
+
 let humanScore = 0;
 let computerScore = 0;
 playGame();
