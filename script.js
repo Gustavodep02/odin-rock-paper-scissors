@@ -8,7 +8,6 @@ function getComputerChoice(){
     }else{
         return "Scissors";
     }
-
 }
 
 function scores(){
@@ -81,6 +80,7 @@ function playRound(humanChoice,computerChoice){
 }
 
 
+
 let humanScore = 0;
 let computerScore = 0;
 
@@ -105,3 +105,4 @@ btnScissors.addEventListener("click", () => {
         playRound("Scissors", getComputerChoice());
     }
 });
+
